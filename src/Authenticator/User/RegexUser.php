@@ -1,4 +1,5 @@
 <?php
+declare(strict_types = 1);
 
 namespace DynDNSKit\Authenticator\User;
 
@@ -26,7 +27,7 @@ class RegexUser extends AbstractUser
      */
     public function authorizeHostname(string $hostname): bool
     {
-        return preg_match('/' . $this->regex . '/', $hostname);
+        return (bool) preg_match('/' . $this->regex . '/', $hostname);
     }
 
     /**
