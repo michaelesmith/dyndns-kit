@@ -14,7 +14,7 @@ This is a framework that will allow you to easily create and use a simple DynDNS
     - `Processor`: this processes our given query and stores the result.
 
 # How do I use it
-To see an example usage please refer to the [example project](https://github.com/michaelesmith/dyndns-example). 
+To see a full example usage please refer to the [example project](https://github.com/michaelesmith/dyndns-example). 
 
 ## Basic usage
 ```php

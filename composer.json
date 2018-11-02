@@ -1,5 +1,6 @@
 {
     "name": "michaelesmith/dyndns-kit",
+    "description": "a framework for creating a dyn dns compatible server",
     "type": "library",
     "license": "MIT",
     "authors": [
